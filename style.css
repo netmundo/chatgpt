@@ -1,0 +1,106 @@
+body{
+  background-color: #5e5a5a;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.box-questions{
+  margin-top: 3rem;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSozdYKpMLyRK4eVLt_D2neZX2d6wIEtRXNfA&usqp=CAU');
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 800px;
+  width: 600px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.header{
+  background-color: #000000;
+  color: var(--white);
+  border-radius: 10px 10px 0 0;
+  font-size: 1.4rem;
+}
+
+.footer{
+  background-color: #000000;
+  border-radius: 0 0 10px 10px;
+  padding: 1rem;
+}
+
+input{
+  width: 60%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #343a38a6;
+  color:white;
+}
+
+button{
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 1rem;
+  background-color: #40E0D0;
+}
+
+button:hover{
+  cursor: pointer;
+  transition: .4s;
+  background-color: #DC143C;
+}
+
+#history{
+  padding: 1rem;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+}
+
+.box-my-message{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-response-message{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.my-message,
+.response-message{
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  margin: 0;
+}
+
+.my-message{
+  text-align: right;
+  background-color: #008080;
+}
+
+.response-message{
+  text-align: left;
+  background-color: #4F4F4F;
+}
+#img-logo{
+  width: 20vh;
+  height: 10vh;
+  border-radius: 10px;
+  position: center;
+  
+}
+
+}
